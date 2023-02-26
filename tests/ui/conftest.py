@@ -1,5 +1,3 @@
-""" This file contains fixtures """
-
 import pytest
 from selenium import webdriver
 

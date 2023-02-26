@@ -1,5 +1,11 @@
 """ This file contains data for requests """
 
+UPDATE_CREATE_DATA = {
+    "name": "morpheus",
+    "job": "leader"
+}
+
+
 UPDATE_USER_DATA = {
         "name": "morpheus",
         "job": "zion resident"

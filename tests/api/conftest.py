@@ -1,5 +1,3 @@
-""" This file contains fixtures """
-
 import pytest
 from data_for_tests.data_for_requests import UPDATE_USER_DATA
 
