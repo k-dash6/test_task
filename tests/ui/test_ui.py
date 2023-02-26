@@ -1,6 +1,5 @@
 """ This file contains UI tests"""
 import json
-import time
 
 import pytest
 import requests
