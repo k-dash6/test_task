@@ -1,6 +1,7 @@
-""" This file contains features """
+""" This file contains locators """
 from selenium.webdriver.common.by import By
 
+# Requests buttons
 LIST_USERS = (By.XPATH, "//a[contains(text(),'List users')]")
 SINGLE_USER = (By.XPATH, "//a[contains(text(),'Single user')]")
 SINGLE_USER_NOT_FOUND = (By.XPATH, "//a[contains(text(),'Single user not found')]")
@@ -16,5 +17,7 @@ REGISTER_UNSUCCESSFUL = (By.XPATH, "//a[contains(text(),'Register - unsuccessful
 LOGIN_SUCCESSFUL = (By.XPATH, "//a[contains(text(),'Login - successful')]")
 LOGIN_UNSUCCESSFUL = (By.XPATH, "//a[contains(text(),'Login - unsuccessful')]")
 DELAY = (By.XPATH, "//a[contains(text(),'Delayed response')]")
+
+# Panels
 OUTPUT_RESPONSE = (By.XPATH, "//pre[@data-key='output-response']")
 RESPONSE_CODE = (By.CLASS_NAME, "response-code")
