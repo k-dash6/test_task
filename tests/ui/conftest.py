@@ -6,7 +6,7 @@ from data_for_tests.data_for_requests import UPDATE_USER_DATA
 
 @pytest.fixture(scope="function")
 def driver_fixture():
-    """ This fixture opens web driver """
+    """ This fixture opens website """
     driver = webdriver.Chrome()
     driver.get("https://reqres.in/")
     yield driver
